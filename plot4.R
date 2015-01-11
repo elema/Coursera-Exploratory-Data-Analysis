@@ -1,5 +1,5 @@
 if (!"load_data.R" %in% list.files()) {
-  setwd("C:/Users/richard/Documents/datascience/data/ExData_Plotting1/")
+  setwd("C:\Users\richard\Documents\datascience\data\Coursera-Exploratory-Data-Analysis")
 } 
 source("load_data.R")
 png(filename = "plot4.png", 
@@ -31,5 +31,5 @@ legend("topright",
 plot(DateTime, Global_reactive_power, 
      type = "l",
      col = "black",
-     xlab = "datetime", ylab = colnames(newData)[4])
+     xlab = "datetime", ylab = colnames(powcon)[4])
 dev.off()
