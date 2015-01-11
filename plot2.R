@@ -1,5 +1,5 @@
 if (!"load_data.R" %in% list.files()) {
-  setwd("C:\Users\richard\Documents\datascience\data\Coursera-Exploratory-Data-Analysis")
+  setwd("C:/Users/richard/Documents/datascience/data/Coursera-Exploratory-Data-Analysis/")
 } 
 source("load_data.R")
 png(filename = "plot2.png", 
